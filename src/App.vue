@@ -12,6 +12,13 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  create(){
+    var a ;
+    if(a == 5){
+        a = 3;
+        console.log(11);
+    }
   }
 }
 </script>
